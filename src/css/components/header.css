@@ -1,0 +1,25 @@
+/* プルダウンメニュー */
+.dropdown-menu {
+  background-image: linear-gradient(rgba(98, 79, 169, 0.7), rgba(37, 176, 178, 0.7));
+}
+
+.dropdown-menu > li {
+  color:#fff;
+  cursor:pointer;
+}
+
+.sticky-header {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+  background: #fff !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.sticky-header .navbar-nav > li > a {
+  color: #000;
+}
+
+header::after {
+  content: "";
+  display: block;
+  height: 115px;
+}

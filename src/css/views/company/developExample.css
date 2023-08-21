@@ -1,0 +1,18 @@
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(48, 55, 66, 0.15);
+    transition: all .5s;
+    -o-transition: all .5s; /* opera */
+    -ms-transition: all .5s; /* IE 10 */
+    -moz-transition: all .5s; /* Firefox */
+    -webkit-transition: all .5s; /*safari and chrome */
+  }
+  
+  /* HOVER OFF */
+  .card {
+    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all .5s; /* opera */
+    -ms-transition: all .5s; /* IE 10 */
+    -moz-transition: all .5s; /* Firefox */
+    -webkit-transition: all .5s; /*safari and chrome */
+  }
